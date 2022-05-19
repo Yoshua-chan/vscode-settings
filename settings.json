@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Gruvbox Dark Soft",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.jediEnabled": false,
@@ -8,13 +7,23 @@
     "terminal.integrated.shell.linux": "/bin/zsh",
     "C_Cpp.default.intelliSenseMode": "gcc-x64",
     "editor.snippetSuggestions": "top",
-    "editor.quickSuggestions": {
-    "other": true,
-    "comments": false,
-    "strings": false
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#928374",
+        "editorBracketHighlight.foreground2": "#ffbb46",
+        "editorBracketHighlight.foreground3": "#90ee90", 
+        "editorBracketHighlight.foreground4": "#b66385", 
+        "editorBracketHighlight.foreground5": "#80a599", 
+        
+    },                                        //"DarkOrange", // "#649c6e", 
+    "editor.quickSuggestions": {             
+        "other": true,                        
+        "comments": false,
+        "strings": false
     },
     "liveServer.settings.donotShowInfoMsg": true,
-    "terminal.integrated.fontFamily": "'Noto Mono for Powerline",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
     //"terminal.integrated.fontFamily": "'Fira Code",
     "C_Cpp.updateChannel": "Insiders",
     "liveServer.settings.donotVerifyTags": true,
@@ -54,5 +63,9 @@
     "cmake.configureOnOpen": false,
     "material-icon-theme.activeIconPack": "angular_ngrx",
     "errorLens.enabled": false,
+    "latex-workshop.view.pdf.viewer": "browser",
+    "workbench.colorTheme": "Gruvbox Dark Soft",
+    "window.menuBarVisibility": "visible",
+    "workbench.editor.autoLockGroups": {},
     
 }
